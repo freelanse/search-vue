@@ -1,4 +1,5 @@
-function enqueue_vue_scripts() {
+<?php 
+    function enqueue_vue_scripts() {
     // Подключаем Vue.js
     wp_enqueue_script('vue-js', 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js', [], null, true);
     
